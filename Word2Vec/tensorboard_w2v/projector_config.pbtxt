@@ -1,0 +1,4 @@
+embeddings {
+  tensor_name: "embedding"
+  metadata_path: "/Users/sungjunpark/POC_BizJarvis_2.0_TA/Word2Vec/metadata.tsv"
+}

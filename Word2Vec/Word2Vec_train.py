@@ -24,7 +24,7 @@ def read_data(filename):
     return data
 
 
-train_data = read_data('poc_train_data.csv')
+train_data = read_data('poc_train_data2.csv')
 test_data = read_data('poc_test_data.csv')
 
 pos_tagger = Okt()
@@ -48,7 +48,7 @@ model.train(tokens, epochs=model.iter, total_examples=model.corpus_count)
 # model.min_alpha = model.alpha
 
 
-os.chdir("/Users/sungjunpark/KT_PoC_Biz-Jarvis2.0/Word2Vec")
+os.chdir("/Users/sungjunpark/POC_BizJarvis_2.0_TA/Word2Vec")
 model.save('KT100_CallCenter.model')
 # model.most_similar('가입/Noun', topn = 3)  ## topn = len(model.wv.vocab)
 # print(model.most_similar('가입/Noun', topn = 10))
