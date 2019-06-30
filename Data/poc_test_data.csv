@@ -1,0 +1,2 @@
+﻿subscriber_nb,date,voc_type_category,sentiment_type,customer_voc_sentence,callcenter_voc_sentence,total_voc_sentence
+100,2019.1.13,가입,1,가입을 원하는데요 어떻게 해야하나요,네 고객님 가입 원하시면 일단 개인정보 입력 후 신청 버튼을 눌러 진행하시면 됩니다.,가입을 원하는데요 어떻게 해야하나요. 네 고객님 가입 원하시면 일단 개인정보 입력 후 신청 버튼을 눌러 진행하시면 됩니다.
