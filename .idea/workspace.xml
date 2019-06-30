@@ -1,51 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="364ea22b-9ac6-47b8-9f8e-d29eaf4a530d" name="Default Changelist" comment="second commit (test)">
-      <change afterPath="$PROJECT_DIR$/.idea/POC_BizJarvis_2.0_TA.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/poc_train_data2.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Data/topn_result.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM_model/BiLSTM_CallCenter_model.ckpt.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM_model/BiLSTM_CallCenter_model.ckpt.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM_model/BiLSTM_CallCenter_model.ckpt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM_model/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM_model/events.out.tfevents.1561876505.SungJunui-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM_model/events.out.tfevents.1561876656.SungJunui-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM_model/loss_accuracy.csv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Bi_LSTM_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Sentiment_Analysis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Sentiment/Word2Vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_Topn/Keyword_Collection.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_csv_train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_model/Bi_LSTM_model.ckpt.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_model/Bi_LSTM_model.ckpt.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_model/Bi_LSTM_model.ckpt.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_model/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_model/events.out.tfevents.1561882835.SungJunui-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_model/events.out.tfevents.1561882954.SungJunui-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_model/events.out.tfevents.1561883136.SungJunui-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_model/events.out.tfevents.1561883203.SungJunui-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Bi_LSTM_model/events.out.tfevents.1561883239.SungJunui-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Classifier.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/CsvWord2Vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Word2Vec.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Model_classification/Word2Vec_model/post.embedding" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word2Vec/KT100_CallCenter.model" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word2Vec/metadata.tsv" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word2Vec/tensorboard_w2v/checkpoint" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word2Vec/tensorboard_w2v/events.out.tfevents.1561874484.SungJunui-MacBook-Pro.local" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word2Vec/tensorboard_w2v/model.ckpt-51.data-00000-of-00001" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word2Vec/tensorboard_w2v/model.ckpt-51.index" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word2Vec/tensorboard_w2v/model.ckpt-51.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Word2Vec/tensorboard_w2v/projector_config.pbtxt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word2Vec/Word2Vec_Tensorboard.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word2Vec/Word2Vec_Tensorboard.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Word2Vec/Word2Vec_train.py" beforeDir="false" afterPath="$PROJECT_DIR$/Word2Vec/Word2Vec_train.py" afterDir="false" />
+    <list default="true" id="364ea22b-9ac6-47b8-9f8e-d29eaf4a530d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Data/ratings_test.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Data/ratings_train.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -60,27 +19,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
               <caret line="24" selection-start-line="24" selection-end-line="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Model_Topn/Keyword_Collection.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#26#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Data/topn_result.csv">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -112,13 +50,23 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Model_classification/Classifier.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="150">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Data/ratings_test.txt">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Data/ratings_train.txt">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
@@ -200,8 +148,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="129" />
-    <option name="y" value="38" />
+    <option name="x" value="296" />
+    <option name="y" value="102" />
     <option name="width" value="1400" />
     <option name="height" value="785" />
   </component>
@@ -398,14 +346,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561873901712</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="2019.06.30 commit&#10;SungJun Park">
+      <created>1561883389269</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1561883389270</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="129" y="38" width="1400" height="785" extended-state="0" />
+    <frame x="296" y="102" width="1400" height="785" extended-state="0" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24945612" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Python Console" />
@@ -413,7 +368,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32900432" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -426,7 +381,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit (test)" />
     <MESSAGE value="second commit (test)" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit (test)" />
+    <MESSAGE value="2019.06.30 commit&#10;SungJun Park" />
+    <option name="LAST_COMMIT_MESSAGE" value="2019.06.30 commit&#10;SungJun Park" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/README.md">
@@ -571,10 +527,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Model_classification/Classifier.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="26" lean-forward="true" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+        <state relative-caret-position="150">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/ratings_test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/ratings_train.txt">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
