@@ -36,7 +36,7 @@ def Grade(sentence):
     global sess
     result = sess.run(prediction, feed_dict={X: zero_pad, seq_len: [len(tokens)]}) # tf.argmax(prediction, 1)이 여러 prediction 값중 max 값 1개만 가져옴
     point = result.ravel().tolist()
-    Tag = ["가입", "해지", "단순문의", "불만접수", "명의변경"]
+    Tag = ["불편접수", "단순문의", "직원칭찬", "지연접수", "해지문의", "기타"]
     for t, i in zip(Tag, point):
         print(t, round(i * 100, 2),"%")
         percent = t + str(round(i * 100, 2)) + "%"
@@ -51,7 +51,7 @@ Vector_size = 300
 Maxseq_length = 500  # Max length of training data
 learning_rate = 0.001
 lstm_units = 128
-num_class = 6
+num_class = 7
 keep_prob = 1.0
 
 X = tf.placeholder(tf.float32, shape = [None, Maxseq_length, Vector_size], name = 'X')

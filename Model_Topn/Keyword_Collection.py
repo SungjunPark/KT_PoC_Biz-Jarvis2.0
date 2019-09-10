@@ -28,15 +28,25 @@ def read_stopwords(filename):
 stopwords_list = read_stopwords('stop_words.csv')
 
 #poc_data = read_data('poc_train_data.csv')
+
 pos_tagger = Okt()
 
 def noun_select(sentence):
     return pos_tagger.nouns(sentence)
 
+'''
+def noun_select(sentence):
+    morph = pos_tagger.pos(sentence)
+    noun_adj_list = []
+    
+    if tag in ['Noun', 'Adjective']:
+        noun_adj_list.append(word)
+    return noun_adj_list
+'''
 #tokens = [noun_select(row[4]) for row in poc_data]
 
 
-def get_tags(text, ntags = 10):
+def get_tags(text, ntags = 20):
     collector = Okt()
     # konlpy의 Okt객체
     #nouns = collector.nouns(text)
@@ -75,12 +85,12 @@ def main():
     #text_file_name = "poc_train_data.csv"
     # 분석할 파일
 
-    noun_count = 10
+    noun_count = 20
     # 최대 많은 빈도수 부터 10개 명사 추출
     output_file_name = "topn_result.csv"
-    # count.txt 에 저장
+    # topn_result.csv 에 저장
     #open_text_file = open(text_file_name, 'r', -1, "utf-8")
-    poc_data = read_data('poc_train_data.csv')
+    poc_data = read_data('poc_train_data2.csv')
     print(poc_data[0])
     tokens = [noun_select(row[4]) for row in poc_data]
     print(tokens)
@@ -91,7 +101,7 @@ def main():
     tags = get_tags(tokens, noun_count)  # get_tags 함수 실행
     #open_text_file.close()  # 파일 close
     open_output_file = open(output_file_name, 'w', encoding='euc-kr')
-    # 결과로 쓰일 count.txt 열기
+    # 결과로 쓰일 topn_result.csv 열기
     for tag in tags:
         noun = tag['tag']
         count = tag['count']

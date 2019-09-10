@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Created on April ~ September. 2019
+Created on April ~ September. 2019.
 
         for KT IT Solution Day
 
@@ -35,7 +35,7 @@ def tokenize(doc):
 
 
 ## training Word2Vec model using skip-gram
-tokens = [tokenize(row[6]) for row in train_data]  # csv의 단어 임베딩 할 열 입력 ex) 6
+tokens = [tokenize(row[4]) for row in train_data]  # csv의 단어 임베딩 할 열 입력 ex) 6
 model = gensim.models.Word2Vec(size=300, sg=1, alpha=0.025, min_alpha=0.025, seed=1234, iter=10)
 model.build_vocab(tokens)
 
@@ -45,7 +45,7 @@ model.train(tokens, epochs=model.iter, total_examples=model.corpus_count)
 
 # model.train(tokens,model.corpus_count,epochs = model.iter)
 # model.alpha -= 0.002
-# model.min_alpha = model.alpha
+# model.min_alpha = model. wnalpha
 
 
 os.chdir("/Users/sungjunpark/POC_BizJarvis_2.0_TA/Word2Vec")

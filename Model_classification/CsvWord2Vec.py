@@ -33,7 +33,7 @@ for i in line:
     all_temp.append(temp)
     embeddingmodel.append(temp_embedding)
     category = i[2]  # csv에서 category column으로 변경
-    category_number_dic = {'가입': 0, '해지': 1, '단순문의': 2, '불만접수': 3, '명의변경': 4}
+    category_number_dic = {'불편접수': 0, '단순문의': 1, '직원칭찬': 2, '지연접수': 3, '해지문의': 4, '기타': 5}
     all_temp.append(category_number_dic.get(category))
     token.append(all_temp)
 print("토큰 처리 완료")
